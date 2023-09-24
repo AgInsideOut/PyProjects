@@ -3,11 +3,10 @@ import json
 import inflect
 import pprint
 import csv
-
-#BEFORE RUNNING SPOONACULAR API, ONE NEEDS TO SUBSCRIBE TO SPOONACULAR AND OBTAIN A KEY HERE: https://rapidapi.com/spoonacular/api/recipe-food-nutrition/pricing
+import AppConfig
 
 headers = {
-	#"X-RapidAPI-Key": "ENTER YOUR KEY HERE",
+	"X-RapidAPI-Key": AppConfig.spoonacular_app_key,
 	"X-RapidAPI-Host": "spoonacular-recipe-food-nutrition-v1.p.rapidapi.com"
 	}
 
@@ -132,5 +131,5 @@ def choose_recipe():
     else:
         print('Wrong name. Try again.')
         return
-          
+
 choose_recipe()
