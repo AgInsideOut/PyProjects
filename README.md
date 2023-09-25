@@ -16,10 +16,16 @@ To run the project on your device:
 
 ![Edamam-website-guide-02](./Screenshots/EdamamAPI/dashboard.png)
 
-6) Visit [RapidApi website](https://rapidapi.com/hub), create an account, visit [Spoonacular API tab](https://rapidapi.com/spoonacular/api/recipe-food-nutrition), subscribe to this API to obtain `key` and `host`, and place this data within `AppConfig.py` file
+6) Visit [RapidApi website](https://rapidapi.com/hub), create an account, visit [Spoonacular API tab](https://rapidapi.com/spoonacular/api/recipe-food-nutrition), subscribe to this API to obtain `X-RapidAPI-Key`, and place this data within `AppConfig.py` file
 7) Run in the VSCode/PyCharm's terminal: `python EdamamAPI_recipeSearch.py` or `python SpoonacularAPI_recipeSearch.py` to run the chosen file
 8) Happy coding! 
 
 ![Edamam-API-ex-01](./Screenshots/EdamamAPI/working/Screenshot%202023-09-24%20at%2011.39.23%20PM.png)
 
 ![Edamam-API-ex-02](./Screenshots/EdamamAPI/working/Screenshot%202023-09-24%20at%2011.39.32%20PM.png)
+
+![Spoonacular-API-ex-01](./Screenshots/SpoonacularAPI/working/Screenshot%202023-09-25%20at%203.09.45%20PM.png)
+
+![Spoonacular-API-ex-02](./Screenshots/SpoonacularAPI/working/Screenshot%202023-09-25%20at%203.09.59%20PM.png)
+
+![Spoonacular-API-ex-03](./Screenshots/SpoonacularAPI/working/Screenshot%202023-09-25%20at%203.10.07%20PM.png)
